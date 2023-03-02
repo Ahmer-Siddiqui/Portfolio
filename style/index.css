@@ -1,0 +1,65 @@
+*{
+    font-weight: 900 ;
+}
+nav div a:hover{
+    background: #166da0;
+}
+.infocontainer{
+    height: 50vh;
+    width: 75vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 150px;
+}
+.hello{
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "fira sans", sans-serif;
+}
+.about{
+    font-size: 2.5em;
+    font-family: 'Source Code Pro', monospace;
+}
+.moreabout{
+    margin-top: 13px;
+    font-size: 1.5em;
+    font-family: "fira sans", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.slidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 28px 0;
+}
+/* background image css */
+#indexBg{
+    position: absolute;
+    opacity: 0.8;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.devpic{
+    border: 5px solid black;
+    height: 60vh;
+    margin-top: 4%;
+    border-radius: 15%;
+}
+.devpic img{
+    height: 100%;
+}
+@media (max-width: 900px) {
+    .devpic{
+        display: none;
+    }
+}
+
+
