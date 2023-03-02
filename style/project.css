@@ -10,15 +10,20 @@ h1 span{
 }
 #javaScript{
     border: 1px solid black;
+    border-radius: 10%;
     margin: 5vh;
     padding: 0px 5vw;
     font-size: 1rem;
 }
 #CSS{
     border: 1px solid black;
+    border-radius: 10%;
     margin: 5vh;
     padding: 0px 5vw;
-    font-size: 1rem;
+    font-size: 2rem;
+}
+#CSS p{
+    font-size: 1.1rem;
 }
 #webDesignerBg{
     position: absolute;
