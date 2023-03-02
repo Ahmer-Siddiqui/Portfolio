@@ -15,12 +15,28 @@ h1 span{
     padding: 0px 5vw;
     font-size: 1rem;
 }
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#javaScript a{
+    text-decoration: none;
+}
 #CSS{
     border: 1px solid black;
     border-radius: 10%;
     margin: 5vh;
     padding: 0px 5vw;
     font-size: 2rem;
+}
+#CSS a{
+    text-decoration: none;
 }
 #CSS p{
     font-size: 1.1rem;
